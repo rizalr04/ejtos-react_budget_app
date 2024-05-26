@@ -1,13 +1,31 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Mengatur styling untuk tag select */
+.currency-dropdown select {
+  width: 120px;
+  height: 58px;
+  padding: 8px; /* Padding di sekitar pilihan */
+  color: #fff; /* Warna teks */
+  background-color: lightgreen; /* Warna latar belakang */
+  border: none; /* Hapus border bawaan */
+  border-radius: 8px; /* Menjadikan sudut lebih halus */
+  cursor: pointer; /* Ubah kursor saat dihover */
+}
+
+/* Mengatur styling untuk opsi dalam dropdown */
+.currency-dropdown select option {
+  padding: 8px; /* Padding di sekitar pilihan */
+  background-color: lightgreen; /* Warna latar belakang */
 }
